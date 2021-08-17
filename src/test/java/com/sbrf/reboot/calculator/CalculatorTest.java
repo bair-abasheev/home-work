@@ -23,7 +23,7 @@ class CalculatorTest {
 
     @Test
     void getDivision() {
-        assertEquals(3, Calculator.getDivision(9, 3));
+        assertEquals(4.5, Calculator.getDivision(9, 2));
     }
     @Test
     void classHasSevenMethods(){
@@ -39,7 +39,7 @@ class CalculatorTest {
         assertEquals(3, Calculator.getMin(9, 3));
     }
     @Test
-    void testGetZero() {
-        assertEquals(0, Calculator.getZero(9, 3));
+    void testGetPow() {
+        assertEquals(729, Calculator.getPow(9, 3));
     }
 }

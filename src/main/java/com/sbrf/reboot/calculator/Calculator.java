@@ -14,12 +14,7 @@ public class Calculator {
     }
 
     public static float getDivision(int i, int i1) {
-        try {
-            return i/i1;
-        } catch (Exception e) {
-            System.err.println(e);
-            return 0;
-        }
+        return (float)i / (float)i1;
     }
 
     public static int getMax(int i, int i1) {
@@ -30,7 +25,7 @@ public class Calculator {
         return Math.min(i,i1);
     }
 
-    public static int getZero(int i, int i1) {
-        return 0;
+    public static int getPow(int i, int i1) {
+        return (int)Math.pow(i,i1);
     }
 }
